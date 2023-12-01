@@ -14,10 +14,6 @@ const answer = input3.reduce((partialSum, a) => partialSum + a, 0);
 const input `<input here>`
 const input2 = input.split('\n')
 const input3 = input2.map((m, i) => {
-    String.prototype.indexOfEnd = function(string) {
-        var io = this.indexOf(string);
-        return io == -1 ? -1 : io + string.length;
-    }
     const vals = ['1','2','3','4','5','6','7','8','9','one','two','three','four','five','six','seven','eight','nine']
     const valMap = { 'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'six': 6, 'seven': 7, 'eight': 8, 'nine': 9 }
     const low = { val: undefined, index: undefined }
